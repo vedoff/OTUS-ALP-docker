@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:2.25-r0
 ENV NGINX_VERSION nginx-1.20.2
 RUN apk update && apk add nginx=1.20.2-r0
 EXPOSE 80
