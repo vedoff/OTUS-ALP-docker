@@ -10,7 +10,7 @@
 
 ## Задание №1
 ### Разворачиваем контейнер используем Dokerfile
-Используем репозиторий: ![Docker1](https://github.com/vedoff/otus-docker/tree/main/Docker1) \
+Используем репозиторий: [Docker1](https://github.com/vedoff/otus-docker/tree/main/Docker1) \
 `docker build -t vedoff/nginx:alpine_1.20.2 .` \
 `docker run -td --name webserver -p 80:80 vedoff/nginx:alpine_1.20.2` \
 Переходим в браузер по адресу `localhost` получаем приветствие `Hello World!` \
@@ -22,7 +22,7 @@
 ![Ссылка на репозиторий](https://hub.docker.com/r/vedoff/nginx)
 ## Задание №2
 ### Разворачиваем контейнер используем vagrant docker-compose
-Используем репозиторий: ![Docker2](https://github.com/vedoff/otus-docker/tree/main/Docker2) \
+Используем репозиторий: [Docker2](https://github.com/vedoff/otus-docker/tree/main/Docker2) \
 `vagrant up` \
 Будет развернут стенд, установлен `docker`, `docker-compose` \
 Заходим на сервер: \
@@ -39,8 +39,8 @@
 На хосте \
 `http://192.168.56.150:8088` 
 
-![Ссылка на репозиторий php](https://hub.docker.com/repository/docker/vedoff/php) \
-![Ссылка на репозиторй nginx](https://hub.docker.com/repository/docker/vedoff/nginx)
+[Ссылка на репозиторий php](https://hub.docker.com/repository/docker/vedoff/php) \
+[Ссылка на репозиторй nginx](https://hub.docker.com/repository/docker/vedoff/nginx)
 
 ### Теоретические вопросы
    - Определите разницу между контейнером и образом. \
