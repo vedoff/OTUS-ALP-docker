@@ -18,8 +18,8 @@
 `docker login` \
 `docker push vedoff/nginx:alpine_1.20.2` \
 Поиск образа \
-`docker search vedoff` \
-![Ссылка на репозиторий](https://hub.docker.com/r/vedoff/nginx)
+`docker search vedoff` 
+
 ## Задание №2
 ### Разворачиваем контейнер используем vagrant docker-compose
 Используем репозиторий: [Docker2](https://github.com/vedoff/otus-docker/tree/main/Docker2) \
